@@ -5,4 +5,4 @@ Başla butonuna tıkladığınızda karşınıza 4x4 ve 6x6 olmak üzere iki but
 Son olarak çıkış butonu ise oyunun kapatılmasını sağlar.
 <br/>
 <br/>
-<img src="https://github.com/KadirShn/Memory-Games/blob/main/Hafiza-Oyun_gif.gif" width="70%" height="70%" />
+<img src="https://github.com/KadirShn/Memory-Games/blob/main/Hafiza-Oyun_gif.gif" width="50%" height="50%" />
