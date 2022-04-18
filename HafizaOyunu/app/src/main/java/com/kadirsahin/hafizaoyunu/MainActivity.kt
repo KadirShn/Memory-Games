@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         var data3 = db.max4()
         var data4 = db.max6()
         txt4luk.text=""
-        txt4luk.text=""
+        txt6lik.text=""
         for (i in 0 until data3.size)
         {
             txt4luk.append("\t"+data3.get(i).pun )
