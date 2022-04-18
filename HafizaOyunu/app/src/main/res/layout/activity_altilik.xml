@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Altilik">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="361dp"
+        android:layout_height="361dp"
+        app:columnCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gerisayim"
+        app:rowCount="6">
+
+        <ImageButton
+            android:id="@+id/fotobtn1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+
+        <ImageButton
+            android:id="@+id/fotobtn3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn15"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn16"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn17"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn18"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="0"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn19"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn20"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="1"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn22"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn23"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="2"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn25"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="3"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn26"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn27"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn28"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn29"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn30"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn31"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="4"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn32"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="0"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn33"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="1"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn34"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="2"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn35"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="3"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn36"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="4"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+
+        <ImageButton
+            android:id="@+id/fotobtn37"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:soundEffectsEnabled="false"
+            app:layout_column="5"
+            app:layout_row="5"
+            app:srcCompat="@drawable/codee" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/eslesme"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#6B49A8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/hamle"
+        app:layout_constraintTop_toBottomOf="@+id/EslesmeGosterge" />
+
+    <TextView
+        android:id="@+id/hamle"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="16dp"
+        android:text="167"
+        android:textAlignment="center"
+        android:textColor="#6B49A8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hamlegosterge" />
+
+    <TextView
+        android:id="@+id/Puangosterge"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="32dp"
+        android:text="Puan"
+        android:textColor="#6B49A8"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hamle" />
+
+    <TextView
+        android:id="@+id/Hamlegosterge"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="32dp"
+        android:text="Hamle"
+        android:textColor="#6B49A8"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/zamanlayici"
+        android:layout_width="60dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="32dp"
+        android:text="Zaman"
+        android:textColor="#6B49A8"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/Puangosterge"
+        app:layout_constraintTop_toBottomOf="@+id/eslesme" />
+
+    <TextView
+        android:id="@+id/EslesmeGosterge"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="32dp"
+        android:text="Eşleşme"
+        android:textAlignment="center"
+        android:textColor="#6B49A8"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/Hamlegosterge"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Puan"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#6B49A8"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Puangosterge" />
+
+    <TextView
+        android:id="@+id/gerisayim"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="16dp"
+        android:text="120"
+        android:textAlignment="center"
+        android:textColor="#6B49A8"
+        android:textSize="34sp"
+        app:layout_constraintStart_toEndOf="@+id/Puan"
+        app:layout_constraintTop_toBottomOf="@+id/zamanlayici" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
