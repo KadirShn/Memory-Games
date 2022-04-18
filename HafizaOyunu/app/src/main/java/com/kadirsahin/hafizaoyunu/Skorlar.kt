@@ -29,7 +29,7 @@ class Skorlar : AppCompatActivity() {
         }
         for(j in 0 until data2.size)
         {
-            txt6x6.append("\t"+data.get(j).id4.toString()+ "\t\t\t\t\t\t\t\t\t\t\t"
+            txt6x6.append("\t"+data2.get(j).id4.toString()+ "\t\t\t\t\t\t\t\t\t\t\t"
                     +data2.get(j).pun+ "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
                     +data2.get(j).sure+ "\t\t\t\t\t\t\t\t\t\t\t\t\t"
                     +data2.get(j).tur+ "\n" )
