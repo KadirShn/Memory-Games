@@ -76,7 +76,7 @@ class DataBase(var context: Context):SQLiteOpenHelper(context, database_name,nul
     fun readData6(): MutableList<skor> {
         var liste2:MutableList<skor> = ArrayList()
         val db = this.readableDatabase
-        var sorgu2 = "Select * From " + table_name + " Where Tur= '6x6'"
+        var sorgu2 = "Select * From " + table_name + " Where Tur= '6x6' ORDER BY " + col_pun4 + " DESC "
         var sonuc2 = db.rawQuery(sorgu2,null)
         if(sonuc2.moveToFirst())
         {
