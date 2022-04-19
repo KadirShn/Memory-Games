@@ -5,10 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import kotlinx.android.synthetic.main.activity_altilik.*
-import kotlinx.android.synthetic.main.activity_dortluk.*
 import kotlinx.android.synthetic.main.activity_dortluk.Puan
 import kotlinx.android.synthetic.main.activity_dortluk.eslesme
 import kotlinx.android.synthetic.main.activity_dortluk.fotobtn1
@@ -30,7 +27,6 @@ import kotlinx.android.synthetic.main.activity_dortluk.fotobtn9
 import kotlinx.android.synthetic.main.activity_dortluk.gerisayim
 import kotlinx.android.synthetic.main.activity_dortluk.hamle
 
-private const val TAG = "Dortluk"
 class Dortluk : AppCompatActivity() {
 
     private lateinit var buttons: List<ImageButton>
@@ -97,7 +93,6 @@ class Dortluk : AppCompatActivity() {
             button.setImageResource(if (card.isFaceUp) card.identifier else R.drawable.codee)
         }
     }
-    private val tekrarkont=0
     private fun updateModels(position: Int) {
 
         val card = cards[position]
@@ -142,13 +137,13 @@ class Dortluk : AppCompatActivity() {
         Puan.text =puan.toString()
 
         val context = this
-        var db = DataBase(context)
+        val db = DataBase(context)
         if(eslesmesayisi==8)
         {
-            var tur = "4x4"
-            var p4 = Puan.text.toString()
-            var s4 = 60 - (gerisayim.text.toString()).toInt()
-            var sk = skor(p4.toInt(),s4.toInt(),tur)
+            val tur = "4x4"
+            val p4 = Puan.text.toString()
+            val s4 = 60 - (gerisayim.text.toString()).toInt()
+            val sk = skor(p4.toInt(),s4,tur)
             db.insertData4(sk)
         }
     }

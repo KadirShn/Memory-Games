@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_altilik.*
 import kotlinx.android.synthetic.main.activity_altilik.Puan
@@ -28,9 +27,7 @@ import kotlinx.android.synthetic.main.activity_altilik.fotobtn8
 import kotlinx.android.synthetic.main.activity_altilik.fotobtn9
 import kotlinx.android.synthetic.main.activity_altilik.gerisayim
 import kotlinx.android.synthetic.main.activity_altilik.hamle
-import kotlinx.android.synthetic.main.activity_dortluk.*
 
-private const val TAG = "Altilik"
 class Altilik : AppCompatActivity() {
     private lateinit var buttons: List<ImageButton>
     private lateinit var cards: List<Kartlar>
@@ -140,14 +137,14 @@ class Altilik : AppCompatActivity() {
         Puan.text =puan.toString()
 
         val context = this
-        var db = DataBase(context)
+        val db = DataBase(context)
 
         if(eslesmesayisi==18)
         {
-            var tur = "6x6"
-            var p6 = Puan.text.toString()
-            var s6 = 120 - (gerisayim.text.toString()).toInt()
-            var sk = skor(p6.toInt(),s6.toInt(),tur)
+            val tur = "6x6"
+            val p6 = Puan.text.toString()
+            val s6 = 120 - (gerisayim.text.toString()).toInt()
+            val sk = skor(p6.toInt(),s6,tur)
             db.insertData4(sk)
         }
     }

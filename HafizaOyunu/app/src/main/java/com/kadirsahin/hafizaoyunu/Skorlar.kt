@@ -14,25 +14,25 @@ class Skorlar : AppCompatActivity() {
         var db = DataBase(context)
         var data = db.readData4()
         var data2 = db.readData6()
-        txt4x4.text = ""
-        txt6x6.text = ""
-        baslik1.text="\tID\t\t\t\t\t\t\t\t\t\tPUAN\t\t\t\t\t\t\t\t\t\t\t\tSüRE\t\t\t\t\t\t\t\t\t\tZORLUK"
-        baslik2.text="\tID\t\t\t\t\t\t\t\t\t\tPUAN\t\t\t\t\t\t\t\t\t\t\t\tSüRE\t\t\t\t\t\t\t\t\t\tZORLUK"
+        textView6.text = ""
+        textView8.text = ""
+        textView10.text = ""
+        textView17.text = ""
+        textView18.text = ""
+        textView19.text = ""
         for (i in 0 until data.size)
         {
-            txt4x4.append("\t"+data.get(i).id4.toString()+ "\t\t\t\t\t\t\t\t\t\t\t"
-                    +data.get(i).pun+ "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                    +data.get(i).sure+ "\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                    +data.get(i).tur+ "\n" )
+            textView6.append(data.get(i).tur+ "\n")
+            textView8.append(data.get(i).pun.toString()+ "\n")
+            textView10.append(data.get(i).sure.toString()+ "\n")
 
 
         }
         for(j in 0 until data2.size)
         {
-            txt6x6.append("\t"+data2.get(j).id4.toString()+ "\t\t\t\t\t\t\t\t\t\t\t"
-                    +data2.get(j).pun+ "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                    +data2.get(j).sure+ "\t\t\t\t\t\t\t\t\t\t\t\t\t"
-                    +data2.get(j).tur+ "\n" )
+            textView17.append(data2.get(j).tur+ "\n")
+            textView18.append(data2.get(j).pun.toString()+ "\n")
+            textView19.append(data2.get(j).sure.toString()+ "\n")
         }
 
     }
