@@ -9,7 +9,6 @@ class Skorlar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_skorlar)
-
         val context = this
         var db = DataBase(context)
         var data = db.readData4()

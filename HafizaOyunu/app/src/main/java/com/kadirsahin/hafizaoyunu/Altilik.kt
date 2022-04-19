@@ -77,7 +77,6 @@ class Altilik : AppCompatActivity() {
         }
         buttons.forEachIndexed { index, button ->
             button.setOnClickListener {
-
                 updateModels(index)
                 updateViews()
             }

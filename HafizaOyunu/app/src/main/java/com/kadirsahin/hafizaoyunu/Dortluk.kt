@@ -118,7 +118,6 @@ class Dortluk : AppCompatActivity() {
         for (card in cards) {
             if (!card.isMatched) {
                 card.isFaceUp = false
-
             }
         }
     }
