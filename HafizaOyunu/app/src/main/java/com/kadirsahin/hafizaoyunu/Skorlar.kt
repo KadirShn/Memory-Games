@@ -25,8 +25,6 @@ class Skorlar : AppCompatActivity() {
             textView6.append(data.get(i).tur+ "\n")
             textView8.append(data.get(i).pun.toString()+ "\n")
             textView10.append(data.get(i).sure.toString()+ "\n")
-
-
         }
         for(j in 0 until data2.size)
         {

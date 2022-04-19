@@ -135,7 +135,6 @@ class Dortluk : AppCompatActivity() {
             puan -=2
         }
         Puan.text =puan.toString()
-
         val context = this
         val db = DataBase(context)
         if(eslesmesayisi==8)
