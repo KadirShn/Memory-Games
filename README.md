@@ -12,4 +12,4 @@ Son olarak çıkış butonu ise oyunun kapatılmasını sağlar.
 <br/>
 # Uygulama Tanıtım Gif
 <br/>
-<img src="https://github.com/KadirShn/Memory-Games/blob/main/Hafiza-Oyun_gif.gif" width="44%" height="44%" />
+<img src="https://github.com/KadirShn/Memory-Games/blob/main/Hafiza_Oyunu_Video.gif" width="44%" height="44%" />
