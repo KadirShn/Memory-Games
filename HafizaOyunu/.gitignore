@@ -1,15 +1,26 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE ve makineye özel dosyalar
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
 local.properties
+
+# İmzalama: anahtarlar ve şifreler asla depoya girmez
+keystore.properties
+*.jks
+*.keystore
+*.pepk
+
+# Derleme çıktıları ve yerel yedekler
+/app/release/
+*.aab
+*.apk
+/yedek-*.tar.gz
+/play-store-assets/eski-ekran-goruntuleri-v2/

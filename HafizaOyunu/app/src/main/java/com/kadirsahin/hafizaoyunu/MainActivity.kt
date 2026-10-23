@@ -1,49 +1,41 @@
 package com.kadirsahin.hafizaoyunu
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.activity_skorlar.*
-import kotlin.system.exitProcess
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.kadirsahin.hafizaoyunu.ui.AppViewModel
+import com.kadirsahin.hafizaoyunu.ui.MemoryGameApp
+import com.kadirsahin.hafizaoyunu.ui.theme.MemoryGameTheme
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splash = installSplashScreen()
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        enableEdgeToEdge()
 
-        val baslabtn = findViewById<Button>(R.id.baslabtn)
-        baslabtn.setOnClickListener {
-            val intent = Intent(this,Zorluk::class.java)
-            startActivity(intent)
-        }
-        val skorbtn = findViewById<Button>(R.id.skorbtn)
-        skorbtn.setOnClickListener {
-            val intent = Intent(this,Skorlar::class.java)
+        val memoryApplication = application as MemoryApplication
+        val appViewModel = ViewModelProvider(
+            this,
+            AppViewModel.factory(
+                memoryApplication.scoreRepository,
+                memoryApplication.settingsRepository,
+                memoryApplication.profileRepository,
+            ),
+        )[AppViewModel::class.java]
+        // Keep the splash until settings are read, so the first frame already has the right theme.
+        splash.setKeepOnScreenCondition { appViewModel.settings.value == null }
+        // Warm up the synthesiser early; rendering the effects takes a few milliseconds on a background thread.
+        memoryApplication.soundEngine
 
-            startActivity(intent)
-        }
-        val cikisbtn = findViewById<Button>(R.id.cikisbtn)
-        cikisbtn.setOnClickListener {
-            finishAffinity();
-            this@MainActivity.finish()
-
-            exitProcess(0)
-        }
-        val context = this
-        var db = DataBase(context)
-        var data3 = db.max4()
-        var data4 = db.max6()
-        txt4luk.text=""
-        txt6lik.text=""
-        for (i in 0 until data3.size)
-        {
-            txt4luk.append("\t"+data3.get(i).pun )
-        }
-        for (j in 0 until data4.size)
-        {
-            txt6lik.append("\t"+data4.get(j).pun )
+        setContent {
+            val settings = appViewModel.settings.collectAsStateWithLifecycle().value ?: return@setContent
+            MemoryGameTheme(settings) {
+                MemoryGameApp(memoryApplication, appViewModel, settings)
+            }
         }
     }
 }

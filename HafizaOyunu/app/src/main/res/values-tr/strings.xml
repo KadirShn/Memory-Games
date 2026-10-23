@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hafıza Ustası</string>
+    <string name="app_tagline">Odağını geliştir. Rekorunu kır.</string>
+
+    <!-- Ana ekran -->
+    <string name="play">Oyna</string>
+    <string name="daily_challenge">Günlük meydan okuma</string>
+    <string name="daily_ready">Bugünün tahtası seni bekliyor</string>
+    <string name="daily_done">Bugün tamamlandı · yarın yine gel</string>
+    <string name="daily_done_short">Bugün tamamlandı</string>
+    <string name="streak_format">%1$d gün seri</string>
+    <string name="campaign">Macera</string>
+    <string name="campaign_progress">%1$d / %2$d yıldız</string>
+    <string name="survival">Hayatta kalma</string>
+    <string name="survival_best_format">En iyi: %1$d tur</string>
+    <string name="nav_scores">Skorlar</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_shop">Mağaza</string>
+    <string name="nav_settings">Ayarlar</string>
+    <string name="rank_1">Çaylak</string>
+    <string name="rank_2">Çırak</string>
+    <string name="rank_3">Kâşif</string>
+    <string name="rank_4">Odak Ustası</string>
+    <string name="rank_5">Hafıza Büyücüsü</string>
+    <string name="rank_6">Efsane</string>
+
+    <!-- Modlar -->
+    <string name="modes_title">Oyun modları</string>
+    <string name="modes_subtitle">Meydan okumanı seç</string>
+    <string name="mode_classic">Klasik</string>
+    <string name="mode_classic_desc">Üç farklı tahtada zamana karşı yarış.</string>
+    <string name="mode_campaign_desc">5 dünyada 30 seviye, her birinde yeni sürprizler.</string>
+    <string name="mode_daily_desc">Her gün herkes için aynı tahta. Serini koru!</string>
+    <string name="mode_survival_desc">Büyüyen sonsuz tahtalar. Her hafıza hatası bir can götürür.</string>
+    <string name="mode_zen">Zen</string>
+    <string name="mode_zen_desc">Süre yok, baskı yok. Sadece sen ve kartlar.</string>
+    <string name="mode_duel">Düello</string>
+    <string name="mode_duel_desc">İki oyuncu, tek cihaz. Eşleştiren tekrar oynar.</string>
+    <string name="two_players">2 oyuncu</string>
+    <string name="choose_board">Bir tahta seç</string>
+    <string name="board_easy">Isınma</string>
+    <string name="board_focus">Odak</string>
+    <string name="board_master">Usta</string>
+    <string name="pairs_format">%1$d çift</string>
+    <string name="seconds_short">%1$d sn</string>
+    <string name="best_format">Rekor %1$s</string>
+    <string name="new_badge">Bugünün tahtası hazır</string>
+
+    <!-- Macera -->
+    <string name="campaign_title">Macera</string>
+    <string name="chapter_format">Dünya %1$d</string>
+    <string name="chapter_1">Uyanış</string>
+    <string name="chapter_2">Fırtına</string>
+    <string name="chapter_3">Buz Diyarı</string>
+    <string name="chapter_4">Karanlık</string>
+    <string name="chapter_5">Efsane</string>
+    <string name="level_format">Seviye %1$d</string>
+    <string name="level_locked">Açmak için önceki seviyeyi geç.</string>
+    <string name="star_goals">Yıldız hedefleri</string>
+    <string name="star_goal_moves">En fazla %1$d hamle</string>
+    <string name="star_goal_clear">Tahtayı bitir</string>
+    <string name="start">Başla</string>
+    <string name="twists_title">Sürprizler</string>
+
+    <!-- Sürprizler -->
+    <string name="twist_no_preview">Gözü kapalı</string>
+    <string name="twist_no_preview_desc">Başlangıçta ezberleme önizlemesi yok.</string>
+    <string name="twist_shuffle">Karıştırma</string>
+    <string name="twist_shuffle_desc">Her 3 hatada kapalı kartlar yer değiştirir.</string>
+    <string name="twist_ice">Buz</string>
+    <string name="twist_ice_desc">Donmuş kartları çevirmeden önce bir dokunuşla kırman gerekir.</string>
+    <string name="twist_golden">Altın çift</string>
+    <string name="twist_golden_desc">Bir çift üç kat puan değerinde.</string>
+    <string name="twist_hourglass">Kum saati</string>
+    <string name="twist_hourglass_desc">Kum saatli çiftler süreye 8 saniye ekler.</string>
+
+    <!-- Oyun -->
+    <string name="score">Puan</string>
+    <string name="moves">Hamle</string>
+    <string name="moves_format">%1$d hamle</string>
+    <string name="pairs">Çift</string>
+    <string name="time">Süre</string>
+    <string name="lives">Can</string>
+    <string name="round_format">Tur %1$d</string>
+    <string name="memorize">Ezberle!</string>
+    <string name="get_ready">Hazırlan…</string>
+    <string name="combo_format">%1$d× SERİ</string>
+    <string name="combo_nice">Güzel!</string>
+    <string name="combo_great">Harika!</string>
+    <string name="combo_super">Süper!</string>
+    <string name="combo_insane">Durdurulamaz!</string>
+    <string name="golden_bonus">ALTIN ×3</string>
+    <string name="shuffle_banner">Karıştırıldı!</string>
+    <string name="player_1">Oyuncu 1</string>
+    <string name="player_2">Oyuncu 2</string>
+    <string name="paused_title">Duraklatıldı</string>
+    <string name="paused_message">Sayaç durdu. Hazır olduğunda kaldığın yerden devam et.</string>
+    <string name="resume">Devam et</string>
+    <string name="restart">Tekrar oyna</string>
+    <string name="leave">Çık</string>
+    <string name="quit_title">Oyundan çıkılsın mı?</string>
+    <string name="quit_message">Bu oyundaki ilerlemen kaybolacak.</string>
+    <string name="keep_playing">Oyuna dön</string>
+    <string name="home">Ana menü</string>
+    <string name="round_clear">Tur %1$d tamam!</string>
+    <string name="round_bonus_format">+%1$d bonus · +1 can</string>
+    <string name="booster_peek">Göz at</string>
+    <string name="booster_peek_desc">Tüm tahtayı bir anlığına gösterir.</string>
+    <string name="booster_hint">İpucu</string>
+    <string name="booster_hint_desc">Eşleşen bir çifti parlatır.</string>
+    <string name="booster_freeze">Dondur</string>
+    <string name="booster_freeze_desc">Süreyi 10 saniye durdurur.</string>
+    <string name="cd_pause">Duraklat</string>
+
+    <!-- Sonuçlar -->
+    <string name="result_win">Muhteşem hafıza!</string>
+    <string name="result_lose">Süre doldu!</string>
+    <string name="result_lose_message">Çok yaklaştın. Her deneme hafızanı biraz daha güçlendirir.</string>
+    <string name="result_survival_over">Koşu bitti</string>
+    <string name="result_survival_message">%1$d tur temizledin.</string>
+    <string name="result_duel_winner">%1$s kazandı!</string>
+    <string name="result_duel_draw">Berabere!</string>
+    <string name="result_duel_score">%1$d – %2$d çift</string>
+    <string name="breakdown_base">Eşleşme puanı</string>
+    <string name="breakdown_time">Süre bonusu</string>
+    <string name="breakdown_perfect">Kusursuz hafıza</string>
+    <string name="new_record">YENİ REKOR</string>
+    <string name="level_up_format">Seviye atladın! Artık seviye %1$d</string>
+    <string name="achievement_unlocked">Başarım açıldı</string>
+    <string name="next_level">Sonraki seviye</string>
+    <string name="stat_slips">Hata</string>
+    <string name="saving">Kaydediliyor…</string>
+
+    <!-- Skorlar -->
+    <string name="scores_title">Skor tablosu</string>
+    <string name="scores_subtitle">Bu cihazdaki en iyi oyunların</string>
+    <string name="lb_daily">Günlük</string>
+    <string name="empty_scores_title">İlk rekorun seni bekliyor</string>
+    <string name="empty_scores_message">Bir oyunu bitir; sonucun burada görünsün.</string>
+    <string name="clear_scores">Skor geçmişini temizle</string>
+    <string name="clear_scores_title">Tüm skorlar silinsin mi?</string>
+    <string name="clear_scores_message">Bu işlem geri alınamaz.</string>
+    <string name="cancel">Vazgeç</string>
+    <string name="clear">Sil</string>
+
+    <!-- Profil -->
+    <string name="profile_title">Profil</string>
+    <string name="xp_format">%1$d / %2$d XP</string>
+    <string name="stats_title">İstatistikler</string>
+    <string name="stat_games">Oyun</string>
+    <string name="stat_wins">Kazanma</string>
+    <string name="stat_accuracy">İsabet</string>
+    <string name="stat_best_combo">En iyi seri</string>
+    <string name="stat_matches">Bulunan çift</string>
+    <string name="stat_playtime">Oyun süresi</string>
+    <string name="stat_streak">En uzun seri</string>
+    <string name="stat_survival">Hayatta kalma</string>
+    <string name="stat_stars">Yıldız</string>
+    <string name="duration_hm">%1$d sa %2$d dk</string>
+    <string name="achievements_title">Başarımlar</string>
+    <string name="achievements_count">%1$d / %2$d açıldı</string>
+
+    <!-- Başarımlar -->
+    <string name="ach_first_win">İlk Zafer</string>
+    <string name="ach_first_win_desc">İlk oyununu kazan.</string>
+    <string name="ach_perfect">Kusursuz</string>
+    <string name="ach_perfect_desc">8+ çiftlik bir tahtayı tek bir hafıza hatası yapmadan bitir.</string>
+    <string name="ach_combo_5">Alev Aldı</string>
+    <string name="ach_combo_5_desc">5× seriye ulaş.</string>
+    <string name="ach_combo_8">Durdurulamaz</string>
+    <string name="ach_combo_8_desc">8× seriye ulaş.</string>
+    <string name="ach_speedster">Şimşek</string>
+    <string name="ach_speedster_desc">8+ çiftlik zamanlı bir tahtayı 30 saniyede bitir.</string>
+    <string name="ach_master">Büyük Usta</string>
+    <string name="ach_master_desc">Tam bir 6×6 tahtayı bitir.</string>
+    <string name="ach_purist">Saf Yetenek</string>
+    <string name="ach_purist_desc">Güçlendirici kullanmadan zamanlı bir 6×6 tahtayı bitir.</string>
+    <string name="ach_campaign_10">Maceracı</string>
+    <string name="ach_campaign_10_desc">10 macera seviyesini geç.</string>
+    <string name="ach_campaign_all">Dünya Fatihi</string>
+    <string name="ach_campaign_all_desc">30 macera seviyesinin hepsini geç.</string>
+    <string name="ach_stars_90">Yıldız Koleksiyoncusu</string>
+    <string name="ach_stars_90_desc">Maceradaki 90 yıldızın hepsini topla.</string>
+    <string name="ach_survivor_5">Hayatta Kalan</string>
+    <string name="ach_survivor_5_desc">Tek bir hayatta kalma koşusunda 5 tur temizle.</string>
+    <string name="ach_survivor_10">Ölümsüz</string>
+    <string name="ach_survivor_10_desc">Tek bir hayatta kalma koşusunda 10 tur temizle.</string>
+    <string name="ach_daily_first">Günlük Ritüel</string>
+    <string name="ach_daily_first_desc">Bir günlük meydan okumayı tamamla.</string>
+    <string name="ach_streak_7">Hafta Savaşçısı</string>
+    <string name="ach_streak_7_desc">Günlük meydan okumada 7 günlük seriye ulaş.</string>
+    <string name="ach_duelist">Düellocu</string>
+    <string name="ach_duelist_desc">Bir arkadaşınla düello oyna.</string>
+    <string name="ach_zen_10">İç Huzur</string>
+    <string name="ach_zen_10_desc">10 zen oyunu bitir.</string>
+    <string name="ach_games_50">Müdavim</string>
+    <string name="ach_games_50_desc">50 oyun oyna.</string>
+    <string name="ach_games_200">Tutkun</string>
+    <string name="ach_games_200_desc">200 oyun oyna.</string>
+    <string name="ach_matches_1000">Bin Çift</string>
+    <string name="ach_matches_1000_desc">Toplamda 1.000 çift bul.</string>
+    <string name="ach_level_10">Yükselen Yıldız</string>
+    <string name="ach_level_10_desc">10. oyuncu seviyesine ulaş.</string>
+    <string name="ach_ice_50">Buzkıran</string>
+    <string name="ach_ice_50_desc">50 donmuş kartı kır.</string>
+    <string name="ach_golden_25">Altına Hücum</string>
+    <string name="ach_golden_25_desc">25 altın çift eşleştir.</string>
+    <string name="ach_night_owl">Gece Kuşu</string>
+    <string name="ach_night_owl_desc">Gece yarısı ile sabah 5 arasında bir oyun kazan.</string>
+
+    <!-- Mağaza -->
+    <string name="shop_title">Mağaza</string>
+    <string name="shop_subtitle">Oynayarak kazandığın altınları harca. Gerçek para ve reklam yok — asla.</string>
+    <string name="boosters_title">Güçlendiriciler</string>
+    <string name="owned_format">Sende: %1$d</string>
+    <string name="not_enough_coins">Yeterli altın yok</string>
+    <string name="purchased">Satın alındı!</string>
+    <string name="card_backs_title">Kart arkaları</string>
+    <string name="card_themes_title">Kart paketleri</string>
+    <string name="card_themes_description">Tüm tahtalarda ve menülerde kullanılır.</string>
+    <string name="equipped">Kullanılıyor</string>
+    <string name="equip">Kullan</string>
+    <string name="free">Ücretsiz</string>
+    <string name="back_aurora">Aurora</string>
+    <string name="back_neon_grid">Neon Izgara</string>
+    <string name="back_waves">Okyanus</string>
+    <string name="back_constellation">Takımyıldız</string>
+    <string name="back_hex">Bal Peteği</string>
+    <string name="back_sunburst">Güneş Patlaması</string>
+    <string name="back_royal">Kraliyet</string>
+    <string name="card_theme_classic">Klasik Lezzetler</string>
+    <string name="card_theme_classic_description">Tanıdık yiyecek koleksiyonunun modern 3D yorumu.</string>
+    <string name="card_theme_cosmic">Kozmik Yolculuk</string>
+    <string name="card_theme_cosmic_description">Canlı 3D stilde gezegenler, yıldızlar ve uzay keşifleri.</string>
+    <string name="card_theme_forest">Büyülü Orman</string>
+    <string name="card_theme_forest_description">Sevimli orman canlıları ve ışıldayan botanik hazineler.</string>
+    <string name="card_theme_neon">Neon Şekiller</string>
+    <string name="card_theme_neon_description">Parlayan vektör şekiller; her çiftin kendine özgü bir silueti var.</string>
+    <string name="card_theme_emoji">Hayvan Dostlar</string>
+    <string name="card_theme_emoji_description">Pastel kartlarda neşeli hayvan dostlar.</string>
+
+    <!-- Ayarlar -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="appearance">Görünüm</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="dynamic_colors">Dinamik renkler</string>
+    <string name="dynamic_colors_description">Desteklenen cihazlarda uygulama renklerini duvar kâğıdınla eşleştirir.</string>
+    <string name="reduced_motion">Hareketi azalt</string>
+    <string name="reduced_motion_description">Daha sakin arka planlar ve daha az animasyon.</string>
+    <string name="gameplay">Oynanış</string>
+    <string name="sound">Ses efektleri</string>
+    <string name="sound_description">Kart çevirme, eşleşme, seri ve zafer sesleri.</string>
+    <string name="haptics">Dokunsal geri bildirim</string>
+    <string name="haptics_description">Kart etkileşimlerinde ve eşleşmelerde hafif titreşim.</string>
+    <string name="how_to_play">Nasıl oynanır</string>
+    <string name="how_to_play_description">Tanıtımı yeniden göster.</string>
+    <string name="data_privacy">Veri ve gizlilik</string>
+    <string name="privacy_summary">Skorların, ilerlemen ve tercihlerin yalnızca bu cihazda kalır. Uygulamada internet izni, reklam, hesap veya takip yoktur.</string>
+    <string name="reset_progress">İlerlemeyi sıfırla</string>
+    <string name="reset_progress_description">Altınlar, XP, yıldızlar, başarımlar ve satın alımlar.</string>
+    <string name="reset_progress_title">Tüm ilerleme sıfırlansın mı?</string>
+    <string name="reset_progress_message">Altınların, XP\'n, macera yıldızların, başarımların, güçlendiricilerin ve kart arkaların silinecek. Bu işlem geri alınamaz.</string>
+    <string name="reset">Sıfırla</string>
+    <string name="version_format">Sürüm %1$s</string>
+    <string name="modernized_with">Kotlin ve Jetpack Compose ile geliştirildi</string>
+
+    <!-- Tanıtım -->
+    <string name="onb_title_1">Çevir. Hatırla. Eşleştir.</string>
+    <string name="onb_body_1">Tahta açıkken ezberle, sonra tüm çiftleri bul. Art arda eşleşmeler 4 kata kadar puan getiren seriler oluşturur.</string>
+    <string name="onb_title_2">Sadece gerçek hatalar sayılır</string>
+    <string name="onb_body_2">Yeni kart keşfetmek bedava. Daha önce gördüğün bir kartı unutmak hafıza hatasıdır: puan, hayatta kalma modunda da bir can kaybettirir.</string>
+    <string name="onb_title_3">Kazan, aç, ustalaş</string>
+    <string name="onb_body_3">Altın ve XP topla, 30 seviyede yıldız kazan, kart arkaları ve güçlendiriciler aç, günlük serini koru.</string>
+    <string name="onb_next">İleri</string>
+    <string name="onb_start">Hadi başlayalım</string>
+    <string name="onb_skip">Geç</string>
+
+    <!-- Erişilebilirlik -->
+    <string name="card_hidden">Gizli kart %1$d</string>
+    <string name="card_revealed">Açık kart %1$d</string>
+    <string name="card_matched">Eşleşen kart %1$d</string>
+    <string name="card_frozen">Donmuş kart %1$d</string>
+</resources>

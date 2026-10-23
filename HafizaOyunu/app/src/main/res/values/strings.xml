@@ -1,3 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hafıza Oyunu</string>
+    <string name="app_name">Memory Master</string>
+    <string name="app_tagline">Train your focus. Break your record.</string>
+
+    <!-- Home -->
+    <string name="play">Play</string>
+    <string name="daily_challenge">Daily challenge</string>
+    <string name="daily_ready">Today\'s board is waiting for you</string>
+    <string name="daily_done">Completed today · come back tomorrow</string>
+    <string name="daily_done_short">Done today</string>
+    <string name="streak_format">%1$d day streak</string>
+    <string name="campaign">Adventure</string>
+    <string name="campaign_progress">%1$d / %2$d stars</string>
+    <string name="survival">Survival</string>
+    <string name="survival_best_format">Best: %1$d rounds</string>
+    <string name="nav_scores">Scores</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_shop">Shop</string>
+    <string name="nav_settings">Settings</string>
+    <string name="rank_1">Rookie</string>
+    <string name="rank_2">Apprentice</string>
+    <string name="rank_3">Explorer</string>
+    <string name="rank_4">Focus Master</string>
+    <string name="rank_5">Memory Wizard</string>
+    <string name="rank_6">Legend</string>
+
+    <!-- Modes -->
+    <string name="modes_title">Game modes</string>
+    <string name="modes_subtitle">Pick your challenge</string>
+    <string name="mode_classic">Classic</string>
+    <string name="mode_classic_desc">Race the clock on three board sizes.</string>
+    <string name="mode_campaign_desc">30 levels across 5 worlds, each with new twists.</string>
+    <string name="mode_daily_desc">One shared board every day. Keep your streak alive!</string>
+    <string name="mode_survival_desc">Endless, growing boards. Every memory slip costs a heart.</string>
+    <string name="mode_zen">Zen</string>
+    <string name="mode_zen_desc">No clock, no pressure. Just you and the cards.</string>
+    <string name="mode_duel">Duel</string>
+    <string name="mode_duel_desc">Two players, one device. A match earns another turn.</string>
+    <string name="two_players">2 players</string>
+    <string name="choose_board">Choose a board</string>
+    <string name="board_easy">Warm-up</string>
+    <string name="board_focus">Focus</string>
+    <string name="board_master">Master</string>
+    <string name="pairs_format">%1$d pairs</string>
+    <string name="seconds_short">%1$ds</string>
+    <string name="best_format">Best %1$s</string>
+    <string name="new_badge">New board today</string>
+
+    <!-- Adventure -->
+    <string name="campaign_title">Adventure</string>
+    <string name="chapter_format">World %1$d</string>
+    <string name="chapter_1">Awakening</string>
+    <string name="chapter_2">Storm</string>
+    <string name="chapter_3">Frostland</string>
+    <string name="chapter_4">Darkness</string>
+    <string name="chapter_5">Legend</string>
+    <string name="level_format">Level %1$d</string>
+    <string name="level_locked">Clear the previous level to unlock.</string>
+    <string name="star_goals">Star goals</string>
+    <string name="star_goal_moves">At most %1$d moves</string>
+    <string name="star_goal_clear">Clear the board</string>
+    <string name="start">Start</string>
+    <string name="twists_title">Twists</string>
+
+    <!-- Twists -->
+    <string name="twist_no_preview">Blindfold</string>
+    <string name="twist_no_preview_desc">No memorisation preview at the start.</string>
+    <string name="twist_shuffle">Shuffle</string>
+    <string name="twist_shuffle_desc">Every 3 mismatches the hidden cards swap places.</string>
+    <string name="twist_ice">Ice</string>
+    <string name="twist_ice_desc">Frozen cards need one tap to crack before they flip.</string>
+    <string name="twist_golden">Golden pair</string>
+    <string name="twist_golden_desc">One pair is worth triple points.</string>
+    <string name="twist_hourglass">Hourglass</string>
+    <string name="twist_hourglass_desc">Hourglass pairs add 8 seconds to the clock.</string>
+
+    <!-- Game -->
+    <string name="score">Score</string>
+    <string name="moves">Moves</string>
+    <string name="moves_format">%1$d moves</string>
+    <string name="pairs">Pairs</string>
+    <string name="time">Time</string>
+    <string name="lives">Lives</string>
+    <string name="round_format">Round %1$d</string>
+    <string name="memorize">Memorise!</string>
+    <string name="get_ready">Get ready…</string>
+    <string name="combo_format">%1$d× COMBO</string>
+    <string name="combo_nice">Nice!</string>
+    <string name="combo_great">Great!</string>
+    <string name="combo_super">Superb!</string>
+    <string name="combo_insane">Unstoppable!</string>
+    <string name="golden_bonus">GOLD ×3</string>
+    <string name="shuffle_banner">Shuffled!</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="paused_title">Paused</string>
+    <string name="paused_message">The clock is stopped. Continue whenever you\'re ready.</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Play again</string>
+    <string name="leave">Leave</string>
+    <string name="quit_title">Leave this game?</string>
+    <string name="quit_message">Progress in this game will be lost.</string>
+    <string name="keep_playing">Keep playing</string>
+    <string name="home">Home</string>
+    <string name="round_clear">Round %1$d cleared!</string>
+    <string name="round_bonus_format">+%1$d bonus · +1 heart</string>
+    <string name="booster_peek">Peek</string>
+    <string name="booster_peek_desc">Reveal the whole board for a moment.</string>
+    <string name="booster_hint">Hint</string>
+    <string name="booster_hint_desc">Highlights a matching pair.</string>
+    <string name="booster_freeze">Freeze</string>
+    <string name="booster_freeze_desc">Stops the clock for 10 seconds.</string>
+    <string name="cd_pause">Pause</string>
+
+    <!-- Results -->
+    <string name="result_win">Brilliant memory!</string>
+    <string name="result_lose">Time\'s up!</string>
+    <string name="result_lose_message">So close. Every attempt makes your memory stronger.</string>
+    <string name="result_survival_over">Run over</string>
+    <string name="result_survival_message">You cleared %1$d rounds.</string>
+    <string name="result_duel_winner">%1$s wins!</string>
+    <string name="result_duel_draw">It\'s a draw!</string>
+    <string name="result_duel_score">%1$d – %2$d pairs</string>
+    <string name="breakdown_base">Match points</string>
+    <string name="breakdown_time">Time bonus</string>
+    <string name="breakdown_perfect">Flawless memory</string>
+    <string name="new_record">NEW RECORD</string>
+    <string name="level_up_format">Level up! You reached level %1$d</string>
+    <string name="achievement_unlocked">Achievement unlocked</string>
+    <string name="next_level">Next level</string>
+    <string name="stat_slips">Slips</string>
+    <string name="saving">Saving…</string>
+
+    <!-- Scores -->
+    <string name="scores_title">Leaderboard</string>
+    <string name="scores_subtitle">Your best games on this device</string>
+    <string name="lb_daily">Daily</string>
+    <string name="empty_scores_title">Your first record awaits</string>
+    <string name="empty_scores_message">Finish a game to see it here.</string>
+    <string name="clear_scores">Clear score history</string>
+    <string name="clear_scores_title">Delete all scores?</string>
+    <string name="clear_scores_message">This cannot be undone.</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Delete</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="xp_format">%1$d / %2$d XP</string>
+    <string name="stats_title">Statistics</string>
+    <string name="stat_games">Games</string>
+    <string name="stat_wins">Win rate</string>
+    <string name="stat_accuracy">Accuracy</string>
+    <string name="stat_best_combo">Best combo</string>
+    <string name="stat_matches">Pairs found</string>
+    <string name="stat_playtime">Play time</string>
+    <string name="stat_streak">Best streak</string>
+    <string name="stat_survival">Survival</string>
+    <string name="stat_stars">Stars</string>
+    <string name="duration_hm">%1$dh %2$dm</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="achievements_count">%1$d of %2$d unlocked</string>
+
+    <!-- Achievements -->
+    <string name="ach_first_win">First Victory</string>
+    <string name="ach_first_win_desc">Win your first game.</string>
+    <string name="ach_perfect">Flawless</string>
+    <string name="ach_perfect_desc">Clear a board of 8+ pairs without a single memory slip.</string>
+    <string name="ach_combo_5">On Fire</string>
+    <string name="ach_combo_5_desc">Reach a 5× combo.</string>
+    <string name="ach_combo_8">Unstoppable</string>
+    <string name="ach_combo_8_desc">Reach an 8× combo.</string>
+    <string name="ach_speedster">Lightning</string>
+    <string name="ach_speedster_desc">Clear a timed board of 8+ pairs within 30 seconds.</string>
+    <string name="ach_master">Grandmaster</string>
+    <string name="ach_master_desc">Clear a full 6×6 board.</string>
+    <string name="ach_purist">Purist</string>
+    <string name="ach_purist_desc">Clear a timed 6×6 board without boosters.</string>
+    <string name="ach_campaign_10">Adventurer</string>
+    <string name="ach_campaign_10_desc">Clear 10 adventure levels.</string>
+    <string name="ach_campaign_all">World Conqueror</string>
+    <string name="ach_campaign_all_desc">Clear all 30 adventure levels.</string>
+    <string name="ach_stars_90">Star Collector</string>
+    <string name="ach_stars_90_desc">Earn all 90 adventure stars.</string>
+    <string name="ach_survivor_5">Survivor</string>
+    <string name="ach_survivor_5_desc">Clear 5 rounds in a single survival run.</string>
+    <string name="ach_survivor_10">Immortal</string>
+    <string name="ach_survivor_10_desc">Clear 10 rounds in a single survival run.</string>
+    <string name="ach_daily_first">Daily Ritual</string>
+    <string name="ach_daily_first_desc">Complete a daily challenge.</string>
+    <string name="ach_streak_7">Week Warrior</string>
+    <string name="ach_streak_7_desc">Reach a 7 day daily streak.</string>
+    <string name="ach_duelist">Duelist</string>
+    <string name="ach_duelist_desc">Play a duel with a friend.</string>
+    <string name="ach_zen_10">Inner Peace</string>
+    <string name="ach_zen_10_desc">Finish 10 zen games.</string>
+    <string name="ach_games_50">Regular</string>
+    <string name="ach_games_50_desc">Play 50 games.</string>
+    <string name="ach_games_200">Devotee</string>
+    <string name="ach_games_200_desc">Play 200 games.</string>
+    <string name="ach_matches_1000">Thousand Pairs</string>
+    <string name="ach_matches_1000_desc">Find 1,000 pairs in total.</string>
+    <string name="ach_level_10">Rising Star</string>
+    <string name="ach_level_10_desc">Reach player level 10.</string>
+    <string name="ach_ice_50">Icebreaker</string>
+    <string name="ach_ice_50_desc">Crack 50 frozen cards.</string>
+    <string name="ach_golden_25">Gold Rush</string>
+    <string name="ach_golden_25_desc">Match 25 golden pairs.</string>
+    <string name="ach_night_owl">Night Owl</string>
+    <string name="ach_night_owl_desc">Win a game between midnight and 5 am.</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Shop</string>
+    <string name="shop_subtitle">Spend the coins you earn by playing. No real money, no ads — ever.</string>
+    <string name="boosters_title">Boosters</string>
+    <string name="owned_format">Owned: %1$d</string>
+    <string name="not_enough_coins">Not enough coins</string>
+    <string name="purchased">Purchased!</string>
+    <string name="card_backs_title">Card backs</string>
+    <string name="card_themes_title">Card packs</string>
+    <string name="card_themes_description">Used on every board and in the menus.</string>
+    <string name="equipped">In use</string>
+    <string name="equip">Use</string>
+    <string name="free">Free</string>
+    <string name="back_aurora">Aurora</string>
+    <string name="back_neon_grid">Neon Grid</string>
+    <string name="back_waves">Ocean</string>
+    <string name="back_constellation">Constellation</string>
+    <string name="back_hex">Honeycomb</string>
+    <string name="back_sunburst">Sunburst</string>
+    <string name="back_royal">Royal</string>
+    <string name="card_theme_classic">Food Classics</string>
+    <string name="card_theme_classic_description">A modern 3D take on the familiar food collection.</string>
+    <string name="card_theme_cosmic">Cosmic Journey</string>
+    <string name="card_theme_cosmic_description">Planets, stars and space exploration in vivid 3D.</string>
+    <string name="card_theme_forest">Enchanted Forest</string>
+    <string name="card_theme_forest_description">Cute forest creatures and glowing botanical treasures.</string>
+    <string name="card_theme_neon">Neon Shapes</string>
+    <string name="card_theme_neon_description">Glowing vector shapes; every pair has a unique silhouette.</string>
+    <string name="card_theme_emoji">Animal Friends</string>
+    <string name="card_theme_emoji_description">Cheerful animals on pastel cards.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_colors">Dynamic colours</string>
+    <string name="dynamic_colors_description">Match the app colours to your wallpaper on supported devices.</string>
+    <string name="reduced_motion">Reduce motion</string>
+    <string name="reduced_motion_description">Calmer backgrounds and fewer animations.</string>
+    <string name="gameplay">Gameplay</string>
+    <string name="sound">Sound effects</string>
+    <string name="sound_description">Chimes for flips, matches, combos and wins.</string>
+    <string name="haptics">Haptic feedback</string>
+    <string name="haptics_description">Light vibrations on card interactions and matches.</string>
+    <string name="how_to_play">How to play</string>
+    <string name="how_to_play_description">Show the introduction again.</string>
+    <string name="data_privacy">Data and privacy</string>
+    <string name="privacy_summary">Scores, progress and preferences stay on this device. The app has no internet permission, ads, accounts or tracking.</string>
+    <string name="reset_progress">Reset progress</string>
+    <string name="reset_progress_description">Coins, XP, stars, achievements and purchases.</string>
+    <string name="reset_progress_title">Reset all progress?</string>
+    <string name="reset_progress_message">Your coins, XP, adventure stars, achievements, boosters and card backs will be deleted. This cannot be undone.</string>
+    <string name="reset">Reset</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="modernized_with">Made with Kotlin and Jetpack Compose</string>
+
+    <!-- Onboarding -->
+    <string name="onb_title_1">Flip. Remember. Match.</string>
+    <string name="onb_body_1">Memorise the board while it is revealed, then find every pair. Consecutive matches build combos worth up to 4× points.</string>
+    <string name="onb_title_2">Only real mistakes count</string>
+    <string name="onb_body_2">Exploring new cards is free. Forgetting a card you have already seen is a memory slip: it costs points, and a heart in survival.</string>
+    <string name="onb_title_3">Earn, unlock, master</string>
+    <string name="onb_body_3">Collect coins and XP, earn stars across 30 levels, unlock card backs and boosters, and keep your daily streak alive.</string>
+    <string name="onb_next">Next</string>
+    <string name="onb_start">Let\'s play</string>
+    <string name="onb_skip">Skip</string>
+
+    <!-- Accessibility -->
+    <string name="card_hidden">Hidden card %1$d</string>
+    <string name="card_revealed">Revealed card %1$d</string>
+    <string name="card_matched">Matched card %1$d</string>
+    <string name="card_frozen">Frozen card %1$d</string>
 </resources>
